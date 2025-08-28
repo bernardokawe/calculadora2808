@@ -18,6 +18,7 @@
                 <input type="radio" name="op" value="multiplicacao"> Multiplicação<br>
                 <input type="radio" name="op" value="divisao"> Divisão<br>
                 <input type="radio" name="op" value="exponenciacao"> Exponenciação<br>
+                <input type="radio" name="op" value="modulo"> Módulo<br>
             </fieldset>
         </form>
         
@@ -66,7 +67,7 @@
                         echo "<h2>Resultado: $n1 ÷ $n2 = " . divisao($n1, $n2) . "</h2>";
                     } elseif ($_GET['op'] == 'exponenciacao') {
                         echo "<h2>Resultado: $n1 **  $n2 = " . exponenciacao($n1, $n2) . "</h2>";
-                    }elseif ($_GET['op'] == 'modulo') {  
+                    }elseif ($_GET['op'] == 'modulo')  {
                         echo "<h2>Resultado: $n1 % $n2 =  "  . modulo($n1, $n2) . "</h2>"; 
 
 
