@@ -51,6 +51,10 @@
                         return pow($n1, $n2); // ou $n1 ** $n2
                     }
 
+                    function modulo($n1,$n2)  {
+                        return ($n1 ** $n2);  
+                    }
+
                     // Exibir resultado
                     if ($_GET['op'] == 'soma') {
                         echo "<h2>Resultado: $n1 + $n2 = " . soma($n1, $n2) . "</h2>";
@@ -61,7 +65,7 @@
                     } elseif ($_GET['op'] == 'divisao') {
                         echo "<h2>Resultado: $n1 ÷ $n2 = " . divisao($n1, $n2) . "</h2>";
                     } elseif ($_GET['op'] == 'exponenciacao') {
-                        echo "<h2>Resultado: $n1 ^ $n2 = " . exponenciacao($n1, $n2) . "</h2>";
+                        echo "<h2>Resultado: $n1 **  $n2 = " . exponenciacao($n1, $n2) . "</h2>";
                     }    
                 } else {
                     echo "<h2>Por favor, insira números válidos.</h2>";
