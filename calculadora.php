@@ -4,7 +4,11 @@
         <title>Calculadora Simples</title>
     </head>
     <body>
-        <h1>Calculadora Simples</h1>
+      <body style="background-color: #f5f5dc;">
+
+ 
+        
+    <h1>Calculadora Simples</h1>
         <form method="GET" action="">
             <label for="num1">Número 1:</label><br>
             <input type="text" name="n1"><br>
