@@ -66,6 +66,10 @@
                         echo "<h2>Resultado: $n1 ÷ $n2 = " . divisao($n1, $n2) . "</h2>";
                     } elseif ($_GET['op'] == 'exponenciacao') {
                         echo "<h2>Resultado: $n1 **  $n2 = " . exponenciacao($n1, $n2) . "</h2>";
+                    }elseif ($_GET['op'] == 'modulo') {  
+                        echo "<h2>Resultado: $n1 % $n2 =  "  . modulo($n1, $n2) . "</h2>"; 
+
+
                     }    
                 } else {
                     echo "<h2>Por favor, insira números válidos.</h2>";
